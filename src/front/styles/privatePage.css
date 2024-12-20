@@ -1,0 +1,52 @@
+.private-page {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.private-page .container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.private-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.private-page p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Botões globais */
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}
+
+.btn:active {
+    background-color: #2e7d32;
+    transform: scale(0.98);
+}
